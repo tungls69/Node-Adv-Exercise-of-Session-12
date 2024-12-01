@@ -1,0 +1,46 @@
+# Global ignores
+node_modules/
+.env
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Backend (NestJS Microservices)
+backend/**/node_modules/
+backend/**/dist/
+backend/**/.env
+backend/**/coverage/
+backend/**/logs/
+backend/**/.cache/
+
+# Frontend (Next.js)
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/coverage/
+frontend/logs/
+
+# OS specific
+*.swp
+*~
+*.bak
+*.old
+*.orig
+*.rej
+*.swo
+*.swn
+
+# IDE specific
+.idea/
+.vscode/
+*.code-workspace
+
+
+# Miscellaneous
+yarn.lock
+package-lock.json
